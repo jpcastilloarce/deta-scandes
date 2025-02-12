@@ -1,60 +1,60 @@
 /* Global Styles */
 html {
-    font-size: 13px;
-    font-family: "Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-  
-  /* Utilidades */
+  font-size: 13px;
+  font-family: "Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Utilidades */
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
   .h-custom {
-    height: calc(100% - 73px);
+    height: 100%;
   }
-  
-  @media (max-width: 450px) {
-    .h-custom {
-      height: 100%;
-    }
-  }
-  
-  /* Dividers */
-  .divider:before,
-  .divider:after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #eee;
-  }
-  
-  /* Footer */
-  .bg-footer {
-    background-color: #0c9a7a;
-    margin-top: 16px;
-  }
-  
-  /* Botones */
-  .btn-primary {
-    background-color: #033b5a;
-  }
-  
-  .btn-primary:hover {
-    background-color: #035a89;
-  }
-  
-  .btn-primary:active {
-    background-color: #046aa1;
-  }
-  
-  /* Logos y Etiquetas */
-  .logoSacndes {
-    margin-top: -100px;
-  }
-  
-  .logo {
-    padding-top: 10px;
-  }
-  
-  .form-label {
-    position: absolute;
-    margin-top: -50px;
-    margin-left: 10px;
-    background-color: white;
-  }
+}
+
+/* Dividers */
+.divider:before,
+.divider:after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/* Footer */
+.bg-footer {
+  background-color: #0c9a7a;
+  margin-top: 16px;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #033b5a;
+}
+
+.btn-primary:hover {
+  background-color: #035a89;
+}
+
+.btn-primary:active {
+  background-color: #046aa1;
+}
+
+/* Logos y Etiquetas */
+.logoSacndes {
+  margin-top: -100px;
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.form-label {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 10px;
+  background-color: white;
+}

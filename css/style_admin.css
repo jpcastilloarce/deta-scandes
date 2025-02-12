@@ -1,117 +1,117 @@
 /* Global Styles */
 html {
-    font-size: 13px;
-    font-family: "Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-  
-  /* Footer */
-  .bg-footer {
-    background-color: #0c9a7a;
-    margin-top: 16px;
-  }
-  
-  /* Botones Primarios */
-  .btn-primary {
-    background-color: #033b5a;
-  }
-  .btn-primary:hover {
-    background-color: #035a89;
-  }
-  .btn-primary:active {
-    background-color: #046aa1;
-  }
-  
-  /* Layout General */
-  .layout {
-    width: 100%;
-    display: grid;
-    grid:
-      "sidebar body" 1fr
-      / auto 1fr;
-    gap: 8px;
-  }
-  
-  /* Sidebar */
-  .sidebar {
-    grid-area: sidebar;
-    width: 283px;
-    height: 100vh;
-    border-right: 1px solid #e6e6e6;
-    padding-right: 12px;
-  }
-  
-  /* Área Principal */
-  .body {
-    grid-area: body;
-  }
-  
-  /* Elementos de Cabecera */
-  .head {
-    margin-top: 10px;
-  }
-  
-  /* Logo */
-  .logo {
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-  
-  /* Menú */
-  .menu {
-    margin-top: 32px;
-    padding-left: 15px;
-  }
-  
-  /* Botón del Sidebar */
-  .sidebar-button {
-    cursor: pointer;
-    width: 100%;
-    height: 44px;
-    padding-left: 22px;
-    padding-top: 12px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-  }
-  .sidebar-button:hover {
-    background-color: #f6f7f8;
-  }
-  .sidebar-button:active {
-    background-color: #d1d1d1;
-  }
-  .sidebar-button.active:hover {
-    background-color: #d6f1e8;
-  }
-  .sidebar-button.active {
-    color: #00a76f;
-    background-color: #ebf8f4;
-  }
-  
-  /* Logout */
-  .logout {
-    float: right;
-    margin-top: -42px;
-    margin-right: 25px;
-    cursor: pointer;
-  }
-  
-  /* Íconos */
-  .icon {
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-    display: inline-flex;
-    background-color: currentcolor;
-    float: left;
-    margin-right: 9px;
-  }
-  .icon-revision {
-    mask: url(https://assets.minimals.cc/public/assets/icons/navbar/ic-file.svg) center center / contain no-repeat;
-  }
-  .icon-telefono {
-    mask: url(https://assets.minimals.cc/public/assets/icons/navbar/ic-user.svg) center center / contain no-repeat;
-  }
-  .icon-pensiones {
-    mask: url(https://assets.minimals.cc/public/assets/icons/navbar/ic-invoice.svg) center center / contain no-repeat;
-  }  
+  font-size: 13px;
+  font-family: "Public Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Footer */
+.bg-footer {
+  background-color: #0c9a7a;
+  margin-top: 16px;
+}
+
+/* Botones Primarios */
+.btn-primary {
+  background-color: #033b5a;
+}
+.btn-primary:hover {
+  background-color: #035a89;
+}
+.btn-primary:active {
+  background-color: #046aa1;
+}
+
+/* Layout General */
+.layout {
+  width: 100%;
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / auto 1fr;
+  gap: 8px;
+}
+
+/* Sidebar */
+.sidebar {
+  grid-area: sidebar;
+  width: 283px;
+  height: 100vh;
+  border-right: 1px solid #e6e6e6;
+  padding-right: 12px;
+}
+
+/* Área Principal */
+.body {
+  grid-area: body;
+}
+
+/* Elementos de Cabecera */
+.head {
+  margin-top: 10px;
+}
+
+/* Logo */
+.logo {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* Menú */
+.menu {
+  margin-top: 32px;
+  padding-left: 15px;
+}
+
+/* Botón del Sidebar */
+.sidebar-button {
+  cursor: pointer;
+  width: 100%;
+  height: 44px;
+  padding-left: 22px;
+  padding-top: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.sidebar-button:hover {
+  background-color: #f6f7f8;
+}
+.sidebar-button:active {
+  background-color: #d1d1d1;
+}
+.sidebar-button.active:hover {
+  background-color: #d6f1e8;
+}
+.sidebar-button.active {
+  color: #00a76f;
+  background-color: #ebf8f4;
+}
+
+/* Logout */
+.logout {
+  float: right;
+  margin-top: -42px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+/* Íconos */
+.icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: inline-flex;
+  background-color: currentcolor;
+  float: left;
+  margin-right: 9px;
+}
+.icon-revision {
+  mask: url(https://assets.minimals.cc/public/assets/icons/navbar/ic-file.svg) center center / contain no-repeat;
+}
+.icon-telefono {
+  mask: url(https://assets.minimals.cc/public/assets/icons/navbar/ic-user.svg) center center / contain no-repeat;
+}
+.icon-pensiones {
+  mask: url(https://assets.minimals.cc/public/assets/icons/navbar/ic-invoice.svg) center center / contain no-repeat;
+}  
